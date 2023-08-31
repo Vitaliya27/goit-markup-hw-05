@@ -769,6 +769,7 @@ img {
     min-height: 584px;
     border-radius: 4px;
     background-color: var(--dairy, #FCFCFC);
+    padding: 72px 24px 24px 24px;
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -813,7 +814,15 @@ img {
 }
 
 .modal-title {
-
+    display: block;
+    width: 360px;
+    text-align: center;
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 
 .modal-form {
@@ -836,7 +845,11 @@ img {
 
 }
 
-.checkbox-input {
+.modal-form-agreement {
+
+}
+
+.checkbox {
 
 }
 
@@ -845,5 +858,5 @@ img {
 }
 
 .modal-form-btn {
-    
+
 }
