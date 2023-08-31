@@ -703,9 +703,14 @@ img {
     letter-spacing: 0.32px;
 }
 
+.subscribe-form {
+    display: flex;
+    margin-top: 16px;
+    gap: 24px;
+}
+
 .footer-form-input {
     padding-left: 16px;
-    margin-top: 16px;
     width: 264px;
     height: 40px;
     flex-shrink: 0;
@@ -717,6 +722,17 @@ img {
 
 .footer-form-input::placeholder {
     color: #FFF;
+}
+
+.btn-footer {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: auto;
 }
 
 /* Modal window */
