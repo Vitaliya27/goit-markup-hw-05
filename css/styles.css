@@ -717,7 +717,7 @@ img {
     border-radius: 4px;
     border: 1px solid var(--WHITE, #FFF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background: none;
+    background-color: transparent;
 }
 
 .footer-form-input::placeholder {
@@ -810,4 +810,40 @@ img {
 .modal-btn:hover .modal-btn-icon,
 .modal-btn:focus .modal-btn-icon {
     fill: #ffffff;
+}
+
+.modal-title {
+
+}
+
+.modal-form {
+
+}
+
+.modal-form-field {
+
+}
+
+.modal-form-input {
+
+}
+
+.modal-form-icon {
+
+}
+
+.modal-form-comment {
+
+}
+
+.checkbox-input {
+
+}
+
+.modal-span {
+
+}
+
+.modal-form-btn {
+    
 }
