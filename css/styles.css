@@ -829,12 +829,25 @@ img {
 
 }
 
-.modal-form-field {
+.modal-form-label {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--LIGHT-SLATE, #8E8F99);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17em;
+    letter-spacing: 0.04em;
+}
 
+.modal-form-field {
+    margin-bottom: 8px;
 }
 
 .modal-form-input {
-
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 }
 
 .modal-form-icon {
