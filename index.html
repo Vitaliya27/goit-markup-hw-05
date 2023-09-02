@@ -439,15 +439,16 @@
                 <textarea class="modal-form-comment" name="user-comment" rows="10" placeholder="Text input" id="user-comment" required minlength="5"></textarea>
               </div>
 
-              <div class="modal-containers">
-                <label class="modal-form-agreement">
-                  <input class="visually-hidden" type="checkbox" name="user-agreement" value="yes" />
-                  <span class="agreement-checkbox">
-                    <svg class="agreement-checkbox-icon" width="10" height="8">
-                      <use href="./images/icons.svg#icon-checkbox"></use>
-                    </svg>
-                  </span>
-                  <span class="modal-span">I accept the terms and conditions of the <a class="modal-form-link" href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a></span>
+              <div class="modal-container-agreement">
+                  <input class="visually-hidden checkbox" type="checkbox" value="true" name="user-privacy" id="user-privacy"/>
+                  <label class="modal-form-agreement" for="user-privacy">
+                    <span class="agreement-checkbox">
+                      <svg class="agreement-checkbox-icon" width="10" height="8">
+                        <use href="./images/icons.svg#icon-checkbox"></use>
+                      </svg>
+                    </span>
+                    I accept the terms and conditions of the
+                    <a class="modal-form-link" href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                 </label>
               </div>
               
