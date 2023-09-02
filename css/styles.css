@@ -701,6 +701,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 
 .subscribe-form {
@@ -709,10 +710,20 @@ img {
     gap: 24px;
 }
 
+.footer-form-label {
+
+}
+
 .footer-form-input {
     padding-left: 16px;
     width: 264px;
     height: 40px;
+
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid var(--WHITE, #FFF);
