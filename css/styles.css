@@ -725,14 +725,18 @@ img {
 }
 
 .btn-footer {
+    min-width: 165px;
     margin: 0;
     padding: 0;
     display: inline-flex;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     height: auto;
+}
+
+.icon-telegram {
+    margin-left: 16px;
 }
 
 /* Modal window */
